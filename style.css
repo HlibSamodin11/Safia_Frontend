@@ -3,10 +3,7 @@
     font-family: "Sora", sans-serif;
     list-style: none;
     margin: 0;
-
 }
-
-
 
 body {
     background-color: #070E27;
@@ -18,28 +15,27 @@ header {
     justify-content: center;
 }
 
-.header_wrap {
+.header__wrap {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
     width: 1280px;
     padding: 36px 80px;
 }
 
-.header_logo {
+.header__logo {
     display: flex;
     align-items: center;
 }
 
-.logo_name {
+.header__logo-name {
     color: #fff;
     font-weight: 600;
     font-size: 24px;
     padding-left: 12px;
 }
 
-.login_btn {
+.header__btn--login {
     color: #fff;
     padding: 16px 24px;
     border-radius: 8px;
@@ -48,24 +44,22 @@ header {
     transition: 0.2s ease-in;
 }
 
-.login_btn:hover {
+.header__btn--login:hover {
     background-color: #162044;
 }
 
-
-
-.title_text {
+.hero__title-text {
     font-size: 64px;
     font-weight: 700;
     color: #fff;
     max-width: 456px;
 }
 
-.title {
+.hero__title {
     padding-right: 194px;
 }
 
-.web_info {
+.hero__info {
     display: flex;
     align-items: center;
     max-width: 1060px;
@@ -79,7 +73,7 @@ header {
     align-items: center;
 }
 
-.site_desc_text {
+.hero__description-text {
     font-size: 20px;
     font-weight: 400;
     color: #7E8BB6;
@@ -88,7 +82,7 @@ header {
     line-height: 32px;
 }
 
-.pricing_btn {
+.hero__btn--pricing {
     background-color: #0059F7;
     padding: 16px 24px;
     color: #fff;
@@ -98,11 +92,11 @@ header {
     margin-bottom: 30px;
 }
 
-.pricing_btn:hover {
+.hero__btn--pricing:hover {
     background-color: #162044;
 }
 
-.companies {
+.hero__companies {
     display: flex;
     align-items: center;
     padding: 97px 0 97px 0;
@@ -111,17 +105,17 @@ header {
     border-bottom: 1px solid rgba(78, 90, 133, 0.2);
 }
 
-.companies>img:not(:last-child) {
+.hero__companies > img:not(:last-child) {
     padding-right: 107px;
 }
 
-.sect_title {
+.features__title {
     font-size: 48px;
     color: #fff;
     font-weight: 600;
 }
 
-.sect_desc {
+.features__desc {
     color: #7E8BB6;
     font-size: 20px;
     font-weight: 400;
@@ -134,55 +128,51 @@ header {
     margin: 0 auto;
     padding-top: 96px;
     padding-bottom: 148px;
-
 }
 
-.card>svg {
+.features__card > svg {
     width: 48px;
     height: 48px;
     fill: #7E8BB6;
     padding: 0;
     margin: 0;
-
 }
 
-.card_list {
+.features__card-list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 0 0 96px 0;
     margin: 0;
     gap: 40px 32px;
-
 }
 
-.card {
+.features__card {
     background-color: #070E27;
     border: 1px solid #162044;
     border-radius: 16px;
     padding: 32px;
     max-width: 400px;
     transition: 0.5s ease-in;
-
 }
 
-.card_title {
+.features__card-title {
     font-size: 24px;
     font-weight: 600;
     color: #fff;
     padding: 32px 0 16px 0;
 }
 
-.card_desc {
+.features__card-desc {
     max-width: 336px;
     color: #CCD2E9;
 }
 
-.card:hover {
+.features__card:hover {
     background-color: #081131;
 }
 
-.free_trial {
+.cta {
     background-color: #0059F7;
     border-radius: 24px;
     margin: 0 auto;
@@ -192,22 +182,21 @@ header {
     padding: 72px 0 72px 0;
 }
 
-.ready_to_start {
+.cta__subtext {
     font-size: 20px;
     color: #fff;
     opacity: 0.5;
-
     padding-bottom: 16px;
 }
 
-.start {
+.cta__heading {
     font-weight: 600;
     font-size: 38px;
     color: #fff;
     padding-bottom: 32px;
 }
 
-.start_btn {
+.cta__btn {
     color: #fff;
     fill: #fff;
     padding: 20px 24px;
@@ -219,29 +208,27 @@ header {
     transition: 0.3s ease-in;
 }
 
-.start_btn>svg {
+.cta__btn > svg {
     padding-left: 10px;
 }
 
-.start_btn:hover {
+.cta__btn:hover {
     transform: scale(1.1);
 }
 
-
-.how_it_works {
+.how-it-works {
     max-width: 1060px;
     margin: 0 auto;
-
 }
 
-.subheading {
+.how-it-works__subheading {
     font-size: 20px;
     font-weight: 500;
     color: #7E8BB6;
     text-align: center;
 }
 
-.heading {
+.how-it-works__heading {
     text-align: center;
     font-size: 48px;
     font-weight: 600;
@@ -249,49 +236,60 @@ header {
     padding-bottom: 95px;
 }
 
-.list_item {
+.how-it-works__item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1060px;
-
 }
 
-.list_item:not(:last-child) {
+.how-it-works__item:not(:last-child) {
     padding-bottom: 96px;
 }
 
-.desc>h3 {
+.how-it-works__desc > h3 {
     font-size: 36px;
     font-weight: 600;
     color: #fff;
 }
 
-.desc>p {
+.how-it-works__desc > p {
     color: #7E8BB6;
     max-width: 400px;
     font-weight: 400;
     font-size: 20px;
 }
 
-.image_div {
+.how-it-works__image {
     max-width: 550px;
 }
 
-.how_it_works_list {
+.how-it-works__list {
     padding-bottom: 172px;
 }
 
-.subscription {
+.pricing__btn--subscribe {
     background-color: #4E5A85;
+    color: #fff;
+    fill: #fff;
+    padding: 20px 24px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease-in;
 }
 
-.subscription:hover {
+.pricing__btn--subscribe > svg {
+    padding-left: 10px;
+}
+
+.pricing__btn--subscribe:hover {
     transform: scale(1);
     background-color: #0059F7;
 }
 
-.price_list_item {
+.pricing__item {
     background-color: #081131;
     width: 310px;
     border-radius: 16px;
@@ -299,13 +297,13 @@ header {
     transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.type_sub {
+.pricing__type-label {
     color: #7E8BB6;
     font-weight: 500;
     font-size: 20px;
 }
 
-.cost {
+.pricing__cost {
     font-size: 56px;
     font-weight: 600;
     color: #fff;
@@ -313,33 +311,27 @@ header {
     padding-bottom: 48px;
 }
 
-.dollar {
+.pricing__dollar {
     color: #4E5A85;
 }
 
-.type {
+.pricing__type {
     border-bottom: 1px solid #4E5A85;
 }
 
-.features_item {
+.pricing__features-item {
     display: flex;
     color: #fff;
     align-items: center;
 }
 
-.check {
-    fill: #4E5A85;
-    color: #4E5A85;
-}
-
-.features_item>p {
+.pricing__features-item > p {
     color: #CCD2E9;
     font-size: 16px;
     padding-left: 12px;
-
 }
 
-.features_list {
+.pricing__features-list {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -347,33 +339,41 @@ header {
     gap: 24px;
 }
 
-.price_list {
+.pricing__list {
     display: flex;
     gap: 40px;
 }
 
-.price {
+.pricing__wrapper {
     display: flex;
     justify-content: center;
 }
 
-.price_list_item:hover {
+.pricing__item:hover {
     background-color: #162044;
     transform: translate(0, -80px);
-
 }
 
-.pricing_title {
+.pricing__heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
     padding-bottom: 176px;
+}
+
+.pricing__subheading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #7E8BB6;
+    text-align: center;
 }
 
 .pricing {
     padding-bottom: 172px;
 }
 
-
-
-.free_trial2 {
+.cta--banner {
     background-color: #0059F7;
     border-radius: 24px;
     display: flex;
@@ -385,22 +385,21 @@ header {
     margin-bottom: 132px;
 }
 
-.ready_to_start2 {
+.cta--banner__subtext {
     font-size: 14px;
     color: #fff;
     opacity: 0.5;
-
     padding-bottom: 16px;
 }
 
-.start2 {
+.cta--banner__heading {
     font-weight: 600;
     font-size: 36px;
     color: #fff;
     padding-bottom: 32px;
 }
 
-.start_btn2 {
+.cta--banner__btn {
     color: #fff;
     fill: #fff;
     padding: 20px 24px;
@@ -412,15 +411,15 @@ header {
     transition: 0.3s ease-in;
 }
 
-.start_btn2>svg {
+.cta--banner__btn > svg {
     padding-left: 10px;
 }
 
-.start_btn2:hover {
+.cta--banner__btn:hover {
     transform: scale(1.1);
 }
 
-.free_trial2_text {
+.cta--banner__text {
     max-height: 72px;
 }
 
@@ -428,10 +427,9 @@ footer {
     background-color: #162044;
     display: flex;
     justify-content: center;
-
 }
 
-.footer-wrap {
+.footer__wrap {
     padding: 50px 0;
     display: flex;
     justify-content: space-between;
@@ -439,24 +437,24 @@ footer {
     width: 1172px;
 }
 
-.footer_icons {
+.footer__icon {
     display: flex;
     fill: #CCD2E9;
     max-width: 20px;
     max-height: 20px;
 }
 
-.footer_icons_list {
+.footer__icons-list {
     display: flex;
     gap: 40px;
 }
 
-.policy {
+.footer__policy {
     display: flex;
     gap: 24px;
     color: #CCD2E9;
 }
 
-.rights {
+.footer__rights {
     color: #CCD2E9;
 }
