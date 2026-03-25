@@ -3,7 +3,10 @@
     font-family: "Sora", sans-serif;
     list-style: none;
     margin: 0;
+
 }
+
+
 
 body {
     background-color: #070E27;
@@ -15,27 +18,28 @@ header {
     justify-content: center;
 }
 
-.header__wrap {
+.header_wrap {
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     width: 1280px;
     padding: 36px 80px;
 }
 
-.header__logo {
+.header_logo {
     display: flex;
     align-items: center;
 }
 
-.header__logo-name {
+.logo_name {
     color: #fff;
     font-weight: 600;
     font-size: 24px;
     padding-left: 12px;
 }
 
-.header__btn--login {
+.login_btn {
     color: #fff;
     padding: 16px 24px;
     border-radius: 8px;
@@ -44,22 +48,24 @@ header {
     transition: 0.2s ease-in;
 }
 
-.header__btn--login:hover {
+.login_btn:hover {
     background-color: #162044;
 }
 
-.hero__title-text {
+
+
+.title_text {
     font-size: 64px;
     font-weight: 700;
     color: #fff;
     max-width: 456px;
 }
 
-.hero__title {
+.title {
     padding-right: 194px;
 }
 
-.hero__info {
+.web_info {
     display: flex;
     align-items: center;
     max-width: 1060px;
@@ -73,7 +79,7 @@ header {
     align-items: center;
 }
 
-.hero__description-text {
+.site_desc_text {
     font-size: 20px;
     font-weight: 400;
     color: #7E8BB6;
@@ -82,7 +88,7 @@ header {
     line-height: 32px;
 }
 
-.hero__btn--pricing {
+.pricing_btn {
     background-color: #0059F7;
     padding: 16px 24px;
     color: #fff;
@@ -92,11 +98,11 @@ header {
     margin-bottom: 30px;
 }
 
-.hero__btn--pricing:hover {
+.pricing_btn:hover {
     background-color: #162044;
 }
 
-.hero__companies {
+.companies {
     display: flex;
     align-items: center;
     padding: 97px 0 97px 0;
@@ -105,17 +111,17 @@ header {
     border-bottom: 1px solid rgba(78, 90, 133, 0.2);
 }
 
-.hero__companies > img:not(:last-child) {
+.companies>img:not(:last-child) {
     padding-right: 107px;
 }
 
-.features__title {
+.sect_title {
     font-size: 48px;
     color: #fff;
     font-weight: 600;
 }
 
-.features__desc {
+.sect_desc {
     color: #7E8BB6;
     font-size: 20px;
     font-weight: 400;
@@ -128,51 +134,55 @@ header {
     margin: 0 auto;
     padding-top: 96px;
     padding-bottom: 148px;
+
 }
 
-.features__card > svg {
+.card>svg {
     width: 48px;
     height: 48px;
     fill: #7E8BB6;
     padding: 0;
     margin: 0;
+
 }
 
-.features__card-list {
+.card_list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 0 0 96px 0;
     margin: 0;
     gap: 40px 32px;
+
 }
 
-.features__card {
+.card {
     background-color: #070E27;
     border: 1px solid #162044;
     border-radius: 16px;
     padding: 32px;
     max-width: 400px;
     transition: 0.5s ease-in;
+
 }
 
-.features__card-title {
+.card_title {
     font-size: 24px;
     font-weight: 600;
     color: #fff;
     padding: 32px 0 16px 0;
 }
 
-.features__card-desc {
+.card_desc {
     max-width: 336px;
     color: #CCD2E9;
 }
 
-.features__card:hover {
+.card:hover {
     background-color: #081131;
 }
 
-.cta {
+.free_trial {
     background-color: #0059F7;
     border-radius: 24px;
     margin: 0 auto;
@@ -182,21 +192,22 @@ header {
     padding: 72px 0 72px 0;
 }
 
-.cta__subtext {
+.ready_to_start {
     font-size: 20px;
     color: #fff;
     opacity: 0.5;
+
     padding-bottom: 16px;
 }
 
-.cta__heading {
+.start {
     font-weight: 600;
     font-size: 38px;
     color: #fff;
     padding-bottom: 32px;
 }
 
-.cta__btn {
+.start_btn {
     color: #fff;
     fill: #fff;
     padding: 20px 24px;
@@ -208,27 +219,29 @@ header {
     transition: 0.3s ease-in;
 }
 
-.cta__btn > svg {
+.start_btn>svg {
     padding-left: 10px;
 }
 
-.cta__btn:hover {
+.start_btn:hover {
     transform: scale(1.1);
 }
 
-.how-it-works {
+
+.how_it_works {
     max-width: 1060px;
     margin: 0 auto;
+
 }
 
-.how-it-works__subheading {
+.subheading {
     font-size: 20px;
     font-weight: 500;
     color: #7E8BB6;
     text-align: center;
 }
 
-.how-it-works__heading {
+.heading {
     text-align: center;
     font-size: 48px;
     font-weight: 600;
@@ -236,60 +249,49 @@ header {
     padding-bottom: 95px;
 }
 
-.how-it-works__item {
+.list_item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1060px;
+
 }
 
-.how-it-works__item:not(:last-child) {
+.list_item:not(:last-child) {
     padding-bottom: 96px;
 }
 
-.how-it-works__desc > h3 {
+.desc>h3 {
     font-size: 36px;
     font-weight: 600;
     color: #fff;
 }
 
-.how-it-works__desc > p {
+.desc>p {
     color: #7E8BB6;
     max-width: 400px;
     font-weight: 400;
     font-size: 20px;
 }
 
-.how-it-works__image {
+.image_div {
     max-width: 550px;
 }
 
-.how-it-works__list {
+.how_it_works_list {
     padding-bottom: 172px;
 }
 
-.pricing__btn--subscribe {
+.subscription {
     background-color: #4E5A85;
-    color: #fff;
-    fill: #fff;
-    padding: 20px 24px;
-    border-radius: 8px;
-    border: none;
-    display: flex;
-    align-items: center;
-    transition: 0.3s ease-in;
 }
 
-.pricing__btn--subscribe > svg {
-    padding-left: 10px;
-}
-
-.pricing__btn--subscribe:hover {
+.subscription:hover {
     transform: scale(1);
     background-color: #0059F7;
 }
 
-.pricing__item {
+.price_list_item {
     background-color: #081131;
     width: 310px;
     border-radius: 16px;
@@ -297,13 +299,13 @@ header {
     transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.pricing__type-label {
+.type_sub {
     color: #7E8BB6;
     font-weight: 500;
     font-size: 20px;
 }
 
-.pricing__cost {
+.cost {
     font-size: 56px;
     font-weight: 600;
     color: #fff;
@@ -311,27 +313,33 @@ header {
     padding-bottom: 48px;
 }
 
-.pricing__dollar {
+.dollar {
     color: #4E5A85;
 }
 
-.pricing__type {
+.type {
     border-bottom: 1px solid #4E5A85;
 }
 
-.pricing__features-item {
+.features_item {
     display: flex;
     color: #fff;
     align-items: center;
 }
 
-.pricing__features-item > p {
+.check {
+    fill: #4E5A85;
+    color: #4E5A85;
+}
+
+.features_item>p {
     color: #CCD2E9;
     font-size: 16px;
     padding-left: 12px;
+
 }
 
-.pricing__features-list {
+.features_list {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -339,41 +347,33 @@ header {
     gap: 24px;
 }
 
-.pricing__list {
+.price_list {
     display: flex;
     gap: 40px;
 }
 
-.pricing__wrapper {
+.price {
     display: flex;
     justify-content: center;
 }
 
-.pricing__item:hover {
+.price_list_item:hover {
     background-color: #162044;
     transform: translate(0, -80px);
+
 }
 
-.pricing__heading {
-    text-align: center;
-    font-size: 48px;
-    font-weight: 600;
-    color: #fff;
+.pricing_title {
     padding-bottom: 176px;
-}
-
-.pricing__subheading {
-    font-size: 20px;
-    font-weight: 500;
-    color: #7E8BB6;
-    text-align: center;
 }
 
 .pricing {
     padding-bottom: 172px;
 }
 
-.cta--banner {
+
+
+.free_trial2 {
     background-color: #0059F7;
     border-radius: 24px;
     display: flex;
@@ -385,21 +385,22 @@ header {
     margin-bottom: 132px;
 }
 
-.cta--banner__subtext {
+.ready_to_start2 {
     font-size: 14px;
     color: #fff;
     opacity: 0.5;
+
     padding-bottom: 16px;
 }
 
-.cta--banner__heading {
+.start2 {
     font-weight: 600;
     font-size: 36px;
     color: #fff;
     padding-bottom: 32px;
 }
 
-.cta--banner__btn {
+.start_btn2 {
     color: #fff;
     fill: #fff;
     padding: 20px 24px;
@@ -411,15 +412,15 @@ header {
     transition: 0.3s ease-in;
 }
 
-.cta--banner__btn > svg {
+.start_btn2>svg {
     padding-left: 10px;
 }
 
-.cta--banner__btn:hover {
+.start_btn2:hover {
     transform: scale(1.1);
 }
 
-.cta--banner__text {
+.free_trial2_text {
     max-height: 72px;
 }
 
@@ -427,9 +428,10 @@ footer {
     background-color: #162044;
     display: flex;
     justify-content: center;
+
 }
 
-.footer__wrap {
+.footer-wrap {
     padding: 50px 0;
     display: flex;
     justify-content: space-between;
@@ -437,24 +439,24 @@ footer {
     width: 1172px;
 }
 
-.footer__icon {
+.footer_icons {
     display: flex;
     fill: #CCD2E9;
     max-width: 20px;
     max-height: 20px;
 }
 
-.footer__icons-list {
+.footer_icons_list {
     display: flex;
     gap: 40px;
 }
 
-.footer__policy {
+.policy {
     display: flex;
     gap: 24px;
     color: #CCD2E9;
 }
 
-.footer__rights {
+.rights {
     color: #CCD2E9;
 }
